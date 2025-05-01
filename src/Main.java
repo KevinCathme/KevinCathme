@@ -48,6 +48,11 @@ public class Main {
         especie2.Vender(50);
         especie3.Vender(40);
         especie4.Vender(30);
+
+        especie1.Comprar(30);
+        especie2.Comprar(50);
+        especie3.Comprar(40);
+        especie4.Comprar(30);
     }
 
 }

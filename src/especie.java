@@ -28,5 +28,7 @@ public class especie {
     }
     void Comprar(int cantidadComprar){
         cantidadDisponible=cantidadDisponible+cantidadComprar;
+        System.out.print("Ahora se disponen "+cantidadDisponible);
+        System.out.println(" "+nombre);
     }
 }
