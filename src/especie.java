@@ -12,6 +12,7 @@ public class especie {
         System.out.println("Clase:"+claseAnimal);
         System.out.println("Cantidad Disponible:"+cantidadDisponible);
         System.out.println("Precio:"+precioVenta);
+        System.out.println("");
     }
     void Vender(int cantidadCompra){
         if(cantidadDisponible<cantidadCompra){
@@ -21,6 +22,8 @@ public class especie {
         }else{
             cantidadDisponible=cantidadDisponible-cantidadCompra;
             cantidadVendida=cantidadVendida+cantidadCompra;
+            System.out.print("Ahora se disponen "+cantidadDisponible);
+            System.out.println(" "nombre);
         }
     }
     void Comprar(int cantidadComprar){
